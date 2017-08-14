@@ -1,0 +1,23 @@
+{
+  "name": "arranged.love",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcherny/arranged.love.git"
+  },
+  "author": "Boris Cherny <boris@performancejs.com> (https://performancejs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bcherny/arranged.love/issues"
+  },
+  "homepage": "https://github.com/bcherny/arranged.love#readme",
+  "devDependencies": {
+    "node-static": "^0.7.9"
+  }
+}

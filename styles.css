@@ -1,0 +1,104 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1 strong {
+  color: #ed145b;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 100px 0;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+  display: block;
+  margin: 80px 0;
+}
+
+.heart {
+  background: url('heart.png') 0 0 no-repeat;
+  background-size: contain;
+  bottom: -10px;
+  display: inline-block;
+  height: 50px;
+  position: relative;
+  width: 65px;
+}
+
+section {
+  margin: 0 auto;
+  width: 800px;
+}
+
+form {
+  display: block;
+  margin: 40px 0;
+  position: relative;
+}
+
+input[type='email'] {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding: 20px;
+  width: 100%;
+}
+
+input[type='submit'] {
+  background: #ed145b;
+  border: 1px solid #ed145b;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 24px;
+  padding: 20px;
+  position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.quote {
+  padding: 33px 0 0 160px;
+  position: relative;
+  width: 400px;
+  font-style: italic;
+  color: #666;
+  line-height: 21px;
+}
+
+.quote span {
+  display: block;
+  text-align: right;
+}
+
+img {
+  clip-path: circle(60px at center);
+  height: 150px;
+  position: absolute;
+    left: 0;
+    top: 0;
+  width: 150px;
+}
+
