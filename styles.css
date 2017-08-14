@@ -58,6 +58,11 @@ form {
   position: relative;
 }
 
+input {
+  -webkit-appearance: none;
+  display: block;
+}
+
 input[type='email'] {
   border: 1px solid #ccc;
   box-sizing: border-box;
